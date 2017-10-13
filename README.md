@@ -81,7 +81,9 @@ Repository should includes：
 Chrome
 
 ## How to begin：
-git clone https://github.com/tws-online-quiz/frontend-build-grade-system-interactive-page
+```
+git clone `this repo site`
+```
 Stack Initial and build:
 Open the index.html with browser direatly, you will see the result of any change.
 
