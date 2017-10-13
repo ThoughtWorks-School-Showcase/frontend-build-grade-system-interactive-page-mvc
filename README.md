@@ -1,21 +1,21 @@
-# Build Interactive Page for Grade System(HTML CSS Bootstrap Integrated Implementation) 
+# Build Interactive Page for Grading System(HTML CSS Bootstrap Integrated Impementation) 
 
 ## Business Requirements:
 Apply HTML, Bootstrap, Javascript to implement a Student Grade System front end ,it should include below feature:
 Add a student info on a single page.  
-Query multiple students Infomation by student Name or ID.
-Update a indicated student infomation.
-Delete a indicated student.
+Query multiple students' information by student Name or ID.
+Update an indicated student information.
+Delete an indicated student.
 
-1. Implementation a static page which display the student grade information
+1. Implement a static page which displays the student's grade information
 Apply Bootstrap table style. 
-Allow write related information on page directly.
+Allow writing related information on page directly.
 
 2. Implementation the feature “Add a student information via a single page”
 
 * Student information should be submit via HTML Form element.
 * Apply JavaScript listen to the form submit event.
-* Validate after input information，The format mast be：
+* Validate after input information, the format must be：
 ```
 Format：Name, Number, Subject1: Score1, ... 
 ```
@@ -27,7 +27,7 @@ Please input the correct format（Format：Name, Number, Subject1: Score1, ...�
  * Student infomation should be stored in browser.
 
 
-3. Base on the completed static page，implement“Query multiple students Infomation by student Name or ID ”
+3. Base on the completed static page，implement “query multiple students information by student Name or ID ”
 
 * Allows the user to query the results of multiple students .
 * Check number for the student 
@@ -35,7 +35,7 @@ Please input the correct format（Format：Name, Number, Subject1: Score1, ...�
 format: student number, student number, ...) 
 ```
 in the correct format.
-* Validate after input information，The format mast be：
+* Validate after input information，The format must be：
 ```
 Format：Name, Number, Subject1: Score1, ... 
 ```
@@ -44,7 +44,7 @@ Format：Name, Number, Subject1: Score1, ...
 4. Implment the feature “Update a indicated student infomation” 
 
 * Allows the user to update the student information after querying the student information list.
-* Validate after update information，The format mast be：
+* Validate after information update, the format must be：
 ```
 Format：Name, Number, Subject1: Score1, ... 
 ```
